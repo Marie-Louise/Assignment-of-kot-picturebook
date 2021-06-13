@@ -10,8 +10,8 @@ class marie3 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_marie3)
-//        var image3 = findViewById<ImageView>(R.id.imageView3)
-//        var textView = findViewById<TextView>(R.id.textView5)
+       var image3 = findViewById<ImageView>(R.id.imageView3)
+        var textView = findViewById<TextView>(R.id.textView5)
         var back3 = findViewById<TextView>(R.id.button5)
         var next3 = findViewById<TextView>(R.id.button4)
         next3.setOnClickListener {
