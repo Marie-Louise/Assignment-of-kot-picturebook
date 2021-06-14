@@ -13,8 +13,8 @@ class MainActivity7 : AppCompatActivity() {
         setContentView(R.layout.activity_main7)
         var image1 = findViewById<ImageView>(R.id.imageView7)
         var text1 = findViewById<TextView>(R.id.textView2)
-        var Back = findViewById<Button>(R.id.button10)
-        Back.setOnClickListener {
+        var Back2 = findViewById<Button>(R.id.button10)
+        Back2.setOnClickListener {
             var intent = Intent(baseContext, MainActivity6::class.java)
             startActivity(intent)
         }
