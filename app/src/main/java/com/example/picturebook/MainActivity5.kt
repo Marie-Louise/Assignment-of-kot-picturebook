@@ -12,8 +12,8 @@ class MainActivity5 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main5)
         var image2=findViewById<ImageView>(R.id.imageView5)
-        var text2=findViewById<TextView>(R.id.textView4)
         var next2=findViewById<TextView>(R.id.button6)
+        var text2=findViewById<TextView>(R.id.textView4)
         var back2=findViewById<TextView>(R.id.button7)
         next2.setOnClickListener{
             var intent1= Intent(baseContext,MainActivity6::class.java)
