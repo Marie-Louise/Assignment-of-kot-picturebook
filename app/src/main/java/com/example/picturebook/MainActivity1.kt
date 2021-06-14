@@ -7,15 +7,15 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 
-class MainActivity : AppCompatActivity() {
+class MainActivity1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_main1)
         var image1 = findViewById<ImageView>(R.id.imageView)
         var text1 = findViewById<TextView>(R.id.textView)
         var next1 = findViewById<Button>(R.id.button)
         next1.setOnClickListener {
-            var intent = Intent(baseContext, marie2::class.java)
+            var intent = Intent(baseContext,MainActivity4::class.java)
             startActivity(intent)
         }
 
